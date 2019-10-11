@@ -4,8 +4,8 @@
 	line-height: 0;
 }
 
-.starbox .colorbar,
-.starbox .ghost {
+ .colorbar,
+ .ghost {
 	z-index: 0;
 	position: absolute;
 	top: 0;
@@ -13,16 +13,16 @@
 	left: 0;
 }
 
-.starbox .stars {
+ .stars {
 	display: inline-block;
 }
 
-.starbox .stars .star_holder {
+ .stars .star_holder {
 	position: relative;
 	z-index: 1;
 }
 
-.starbox .stars .star_holder .star {
+ .stars .star_holder .star {
 	display: inline-block;
 	vertical-align: baseline;
 	background-repeat: no-repeat;
@@ -30,12 +30,12 @@
 
 
 /* Override with your own image and size… */
-.starbox .stars .star_holder .star {
+ .stars .star_holder .star {
 	background-image: url('https://github.com/sabberworm/jStarbox/raw/master/images/5-small.png');
 	width:17px;
 	height:17px;
 }
-.starbox{
+{
 	float:left;
 }
 .block span{
@@ -45,11 +45,11 @@
 	font-size: 0.875em;
 }
 /* Override with your own colours… */
-.starbox .stars { background: #b0b0b0; }
-.starbox .rated .stars { background: #b0b0b0; }
-.starbox .rated.hover .stars { background: #b0b0b0; }
-.starbox .colorbar { background: #FAB005; }
-.starbox .hover .colorbar { background: #FAB005; }
-.starbox .rated .colorbar { background: #FAB005; }
-.starbox .rated.hover .colorbar { background: #FAB005; }
-.starbox .ghost { background: #FAB005; }
+ .stars { background: #b0b0b0; }
+ .rated .stars { background: #b0b0b0; }
+ .rated.hover .stars { background: #b0b0b0; }
+ .colorbar { background: #FAB005; }
+ .hover .colorbar { background: #FAB005; }
+ .rated .colorbar { background: #FAB005; }
+ .rated.hover .colorbar { background: #FAB005; }
+ .ghost { background: #FAB005; }

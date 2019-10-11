@@ -1,8 +1,8 @@
 {
-  "name": "Grocery",
+  "name": "grocery",
   "version": "1.0.0",
-  "description": "",
-  "main": "register.js",
+  "description": "site for grocery",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +10,21 @@
     "type": "git",
     "url": "git+https://github.com/udaymewada/Grocery.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "node",
+    "mongodb",
+    "mongoose",
+    "demo"
+  ],
+  "author": "uday",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/udaymewada/Grocery/issues"
   },
-  "homepage": "https://github.com/udaymewada/Grocery#readme"
+  "homepage": "https://github.com/udaymewada/Grocery#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.4"
+  }
 }
